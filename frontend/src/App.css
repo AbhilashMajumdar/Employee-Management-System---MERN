@@ -1,0 +1,65 @@
+/* all fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+/* navbar logo  */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+/* all heading  */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+.row,
+p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* navbar  */
+.navbar .navbar-brand {
+    font-size: 35px;
+    font-family: 'Great Vibes', cursive;
+}
+
+/* home-container  */
+.home-container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container p{
+    font-size: 40px;
+    letter-spacing: 0.2ch;
+    font-family: 'Lobster', cursive;
+}
+
+/* search-bar  */
+.search-heading h1{
+    font-family: 'Lobster', cursive;
+    letter-spacing: 0.2ch;
+}
+
+
+/* formbar  */
+.form-bar h1{
+    font-family: 'Lobster', cursive;
+    letter-spacing: 0.2ch;   
+}
+
+/* employee  */
+.emp-head h1{
+    font-family: 'Lobster', cursive;
+    letter-spacing: 0.2ch; 
+}
+
+.emp-title{
+    font-size: 20px;
+    font-weight: 600;
+}
